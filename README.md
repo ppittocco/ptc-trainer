@@ -8,11 +8,14 @@ PC mods such as Menyoo cannot be used here. They are `.asi` files loaded by Scri
 
 ## Install
 
-1. Copy the `PTC TRAINER` folder into the game folder (the one with `Launch-Local.cmd`, `runtime\` and `mirror\`).
-2. Double-click `PTC TRAINER\Install-PTCTrainer.cmd`.
-3. Start the game. If the server is already running, restart it. Then press **F8**.
+1. Download this repository: **Code → Download ZIP** and extract it, or `git clone https://github.com/MrThurZz/ptc-trainer`.
+2. Put the folder inside the game folder (the one with `Launch-Local.cmd`, `runtime\` and `mirror\`). You can name it anything, for example `PTC TRAINER`.
+3. In that folder, double-click `Install-PTCTrainer.cmd`.
+4. Start the game. If the server is already running, restart it. Then press **F8**.
 
-To remove it, double-click `PTC TRAINER\Uninstall-PTCTrainer.cmd`. Every file goes back to how it was.
+To remove it, double-click `Uninstall-PTCTrainer.cmd` in the same folder. Every file goes back to how it was.
+
+This repository contains only the trainer: no game files. The game itself is not included.
 
 The installer checks every patch point before it changes anything. If the game files are a different version, it stops and leaves them untouched. Running it twice does nothing; uninstall first if you want to reinstall.
 
